@@ -1,0 +1,17 @@
+/node_modules
+.idea
+/server/.env
+/server/vendor
+/server/public/storage/uploads
+/server/composer.lock
+/server/package-lock.json
+/server/.vscode
+/server/.idea
+/app/.env
+/app/vendor
+/app/public/storage/uploads
+/app/composer.lock
+/app/package-lock.json
+/app/.vscode
+client/src/components/Shared/baseURL.js
+.vscode

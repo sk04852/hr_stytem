@@ -1,0 +1,54 @@
+# This is a sample build configuration for PHP.
+# Check our guides at https://confluence.atlassian.com/x/e8YWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: php:7.4-fpm
+
+definitions:
+  services:
+    mysql:
+      image: mysql:5.7
+      environment:
+        MYSQL_DATABASE: 'testdb'
+        MYSQL_ROOT_PASSWORD: 'secret'
+        SERVICE_NAME: 'mysql'
+
+  steps:
+    - step: &test
+        name: Test
+        caches:
+          - composer
+        script:
+          # Install dependencies
+          - apt-get update && apt-get install -y unzip libfreetype6-dev libjpeg62-turbo-dev libpng-dev zlib1g-dev
+          # Configure and install extensions
+          - docker-php-ext-configure gd --with-freetype --with-jpeg
+          - docker-php-ext-install -j$(nproc) pdo_mysql gd exif
+          # Download and install Composer
+          - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+          - composer 
+          - ln -f -s .env.pipelines .env
+        services:
+          - mysql
+
+pipelines:
+  branches:
+    develop:
+      # - step: *test
+      - step:
+          name: Deploy to development
+          deployment: staging
+          script:
+            - apt-get update && apt-get install -y unzip
+            - apt-get install -y openssh-client
+            - ssh root@host.digibits.xyz 'bash' < execute.sh
+    master:
+      # - step: *test
+      - step:
+          name: Deploy to production 
+          deployment: production
+          script:
+            - apt-get update && apt-get install -y unzip
+            - apt-get install -y openssh-client
+            - ssh root@host.digibits.xyz 'bash' < execute.sh

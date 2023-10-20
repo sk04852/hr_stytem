@@ -1,0 +1,1 @@
+INSERT INTO policies(id, name, is_default, created_at, updated_at) VALUES(1, 'Digibits', 'Yes', NOW(), NOW())

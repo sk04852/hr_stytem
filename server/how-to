@@ -1,0 +1,23 @@
+If model is searchable. It should have a IndexerConfigurator like:
+App\Http\Controllers\Search\Indexers\AccountsIndexConfigurator
+
+And
+Then run
+Create Index
+$ php artisan elastic:create-index "App\Http\Controllers\Search\Indexers\LeadsIndexConfigurator"
+Update Alias
+$ php artisan elastic:update-index "App\Http\Controllers\Search\Indexers\AccountsIndexConfigurator"
+
+
+Model Needs:
+
+    public function searchableAs()
+    {
+        return '_doc';
+    }
+
+        public function toSearchableArray()
+    {
+        $data = new SearchableLeadResource($this);
+        return $data->toArray($this);
+    }

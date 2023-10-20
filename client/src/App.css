@@ -1,0 +1,87 @@
+@import './assets/plugins/bootstrap/css/bootstrap.css';
+@import './assets/plugins/datatable/dataTables.bootstrap4.min.css';
+
+@import './assets/css/main.css';
+
+/*@import './assets/css/theme2.css';*/
+@import './assets/scss/skins/theme2.css';
+
+@import './assets/css/custom.css';
+
+@import './assets/plugins/charts-c3/c3.min.css';
+
+@import './assets/plugins/summernote/dist/summernote.css';
+
+@import './assets/plugins/jvectormap/jvectormap-2.0.3.css';
+
+@import './assets/plugins/bootstrap-multiselect/bootstrap-multiselect.css';
+
+@import './assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css';
+
+@import './assets/plugins/fullcalendar/fullcalendar.min.css';
+
+@import './assets/plugins/jquery-steps/jquery.steps.css';
+
+@import "./assets/scss/page/calendar.css";
+@import "./assets/scss/header.css";
+
+.table-sortable > thead > tr > th {
+    cursor: pointer;
+    position: relative;
+}
+
+.table-sortable > thead > tr > th:after,
+.table-sortable > thead > tr > th:after,
+.table-sortable > thead > tr > th:after {
+    content: ' ';
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: 10px;
+    top: 16px;
+}
+
+.table-sortable > thead > tr > th:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #ccc;
+    border-bottom: 0px solid transparent;
+}
+
+.table-sortable > thead > tr > th:hover:after {
+    border-top: 5px solid #888;
+}
+
+.table-sortable > thead > tr > th.asc:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 5px solid #333;
+}
+.table-sortable > thead > tr > th.asc:hover:after {
+    border-bottom: 5px solid #888;
+}
+
+.table-sortable > thead > tr > th.desc:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+    border-bottom: 5px solid transparent;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.active-tab {
+    background-color: #b5c0ca;
+}
+
+.dropdown-menu.show{
+    left: -45px !important;
+}
+
+.sticky-cv{
+    position: sticky;
+    top: 10px;
+}

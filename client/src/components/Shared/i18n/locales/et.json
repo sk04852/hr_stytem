@@ -1,0 +1,615 @@
+{
+  "welcome text": "Tere Tulemast",
+  "buttons": {
+    "save": "Salvesta",
+    "submit": "Kinnita",
+    "cancel": "Tühista",
+    "close": "Sulge",
+    "filter": "Filtreeri",
+    "reset": "Tühista",
+    "back": "Tagasi",
+    "edit": "Muuda",
+    "send": "Saada",
+    "create": "Loo",
+    "upload": "Laadi üles",
+    "update": "Uuenda",
+    "backToCandidate": "Tagasi kandidaatide tööpakkumiste juurde",
+    "share": "Jaga",
+    "done": "Valmis",
+    "delete": "Kustuta"
+  },
+  "actions": "Tegevus",
+  "delete": "Kustuta",
+  "uploadPicture": "Lae üles pilt",
+  "recordNotFound": {
+    "fileNotFound": "Faili ei leitud",
+    "noAttachmentFound": "Manust ei leitud",
+    "noMatchFound": "Ühtegi sobivat töökohta ei leitud",
+    "noListFound": "Ühtegi listi ei ole leitud",
+    "noRecordFound": "Kirjeid ei leitud",
+    "noJobFound": "Tööpakkumist ei leitud"
+  },
+  "owner": "Looja",
+  "messages": {
+    "confirmDelete": "Oled kindel?",
+    "confirmDeleteList": "Oled kindel, et soovid listi kustutada?"
+  },
+  "warnings": {
+    "addCandidateBookmarkWarning": "Palun lisa enne isiklikud andmed!"
+  },
+  "alerts": {
+    "allowedFormats": "Lubatud formaadid"
+  },
+  "confirm": {
+    "verifyZoomAccount": "Kas Soovite Oma Suumikontot Kinnitada?"
+  },
+  "errors": {
+    "tagsNotAllowed": "Tarbetud sisestused (lingid, sildid jne) pole lubatud.",
+    "invalidFileType": "Seda failivormingut ei toetata. Valige kehtiv failivorming, mis on toodud allpool.",
+    "invalidVideoType": "Seda vormingut ei toetata. Valige kehtiv vorming, mis on toodud allpool.",
+    "invalidYoutubeLink": "Link ei kehti. Sisestage kehtiv YouTube'i link."
+  },
+  "loaders": {
+    "pleaseWait": "Palun Oota"
+  },
+  "formValidationMessages": {
+    "required": "Nõutud",
+    "emailValidationMessage": "Peab olema kehtiv e-posti aadress",
+    "numberValidationMessage": "Peab olema kehtiv number",
+    "passwordMinMessage": "Peab olema vähemalt 6 tähemärki",
+    "samePasswordMessage": "Mõlemad paroolid peavad olema samad",
+    "tryAnotherPassword": "Proovige teist parooli",
+    "childrenQuantity": "Laste arv peab olema vahemikus 0 kuni 10",
+    "age": "Vanus peab olema vahemikus 0 kuni 150",
+    "personalCode": {
+      "incorrectCode": "Vale isikukood",
+      "greaterYear": "Aasta ei tohi olla suurem kui praegune aasta",
+      "limit": "Isikukoodis peab olema 11 numbrit",
+      "notMatch": "Teie isikukood ei vasta teie soole",
+      "notMatchWithDOB": "Teie isikukood ei ühti teie sünnikuupäevaga"
+    },
+    "sendEmailTemplates": {
+      "toRequired": "E-post on nõutav"
+    }
+  },
+  "header": {
+    "language": "Keel",
+    "accessibility": "Juurdepääsetavus",
+    "projects": "Projektid",
+    "notifications": {
+      "loadMore": "Lae juurde",
+      "markAllAsRead": "Märgi loetuks"
+    },
+    "profileSettings": {
+      "profile": "Profiil",
+      "settings": "Sätted",
+      "inbox": "Sissetulevad",
+      "messages": "Sõnumid",
+      "needHelp": "Kas on abi vaja",
+      "signOut": "Logi välja"
+    }
+  },
+  "dashboard": {
+    "taskboard": "Ülesanded",
+    "todo": "Todo",
+    "payroll": "Palgaarvestus",
+    "newTicket": "Uus Pilet",
+    "accounts": "Kontod",
+    "reports": "Aruanded"
+  },
+  "taskboard": {
+    "addNewTasks": "Lisa uus",
+    "addNewTasksModalHeading": "Lisa ülesanne",
+    "toWhome": "Kellele",
+    "description": "Kirjeldus",
+    "createTaskButton": "Loo ülesanne",
+    "deadline": "Tähtaeg"
+  },
+  "todo": {
+    "addNewTodo": "Lisa uus",
+    "addNewTodoModalHeading": "Lisa ülesanne",
+    "toWhome": "Kellele",
+    "description": "Kirjeldus",
+    "createTaskButton": "Loo ülesanne",
+    "deadline": "Tähtaeg"
+  },
+  "sideMenu": {
+    "directories": "Navigatsioon",
+    "dashboard": "Avaleht",
+    "candidates": "Kandidaatide Nimekiri",
+    "company": "Ettevõtete Nimekiri",
+    "jobs": "Tööpakkumised",
+    "settings": "Sätted"
+  },
+  "candidates": {
+    "addNewCandidateButton": "Lisa uus kandidaat",
+    "addNewCandidate": {
+      "addNewCandidateModal": {
+        "addNewCandidateModalHeading": "Lisa uus kandidaat",
+        "addNewCandidateModalSubHeading": "Kas soovid importida CV-st või lisada käsitsi?",
+        "addNewCandidateImportFromCvButton": "Impordi CV-st",
+        "addNewCandidateAddManuallyButton": "Lisa käsitsi"
+      },
+      "back": "Tagasi kandidaatide nimekirja"
+    },
+    "importFromPdfHeading": "Impordi andmed PDF-st",
+    "bookmarks": {
+      "personalInformationBookmark": "Isiklik informatsioon",
+      "personalInformation": {
+        "firstName": "Eesnimi",
+        "lastName": "Perekonnanimi",
+        "dob": "Sünniaeg",
+        "personalInformation": "Isiklik informatsioon",
+        "personalCode": "Isikukood",
+        "email": "Email",
+        "address": "Aadress",
+        "maritalStatus": "Perekonnaseis",
+        "childrenQuantity": "Laste arv",
+        "age": "Vanus",
+        "nationality": "Rahvus",
+        "addNationality": "Lisa rahvus",
+        "drivingLicense": "Juhiluba",
+        "addDrivingLicense": "Lisa uus juhiluba",
+        "recommendation": "Soovitajad",
+        "addRecommendations": "Lisa soovitaja",
+        "keyword": "Võtmesõnad",
+        "addKeyword": "Lisa Võtmesõnad",
+        "tag": "Märksõnad",
+        "source": "Allikas",
+        "desiredJob": "Soovitud töökoht",
+        "desiredJobType": "Soovitud töö liik",
+        "fullTime": "Täistööaeg",
+        "partTime": "Osaline tööaeg",
+        "desiredJobTime": "Soovitud töö aeg",
+        "desiredJobLocation": "Soovitud töö asukoht",
+        "desiredJobSalary": "Soovitud töötasu (bruto)",
+        "status": "Staatus",
+        "statusActive": "Aktiivne",
+        "statusInActive": "Mitteaktiivne",
+        "newsLetter": "Nõusolek saada uudiskirju",
+        "consent": "Nõusolek lisada andmed andmebaasi",
+        "uploadPicture": "Vali pilt",
+        "description": "Kirjeldus"
+      },
+      "jobHistoryBookmark": "Töö",
+      "jobHistory": {
+        "companyName": "Ettevõtte nimetus",
+        "designation": "Amet",
+        "workPlace": "Töökoha aadress",
+        "description": "Tööülesannete kirjeldus",
+        "jobStartDate": "Töö alguskuupäev",
+        "jobEndDate": "Töö lõppkuupäev",
+        "stillWorking": "Töötan tänaseni",
+        "addMoreJobs": "Lisa uus töökoht",
+        "deleteJob": "Kustuta töökoht"
+      },
+      "educationBookmark": "Haridus",
+      "education": {
+        "educationLevel": "Haridusaste",
+        "institute": "Haridusasutus",
+        "speciality": "Eriala",
+        "educationStartDate": "Õppima asumise aasta",
+        "educationEndDate": "Lõpetamise aasta",
+        "stillStudying": "Õpin veel",
+        "additionalInformation": "Lisainfo",
+        "addMoreEducationHistory": "Lisa uus haridus",
+        "deleteEducationHistory": "Kustuta haridus",
+        "until": "Tänaseni"
+      },
+      "additionalCoursesBookmark": "Täiendkoolitus",
+      "additionalCourses": {
+        "title": "Nimetus",
+        "totalHours": "Maht",
+        "description": "Kirjeldus",
+        "courseStartDate": "Alguskuupäev",
+        "courseEndDate": "Lõppkuupäev",
+        "addMoreCourses": "Lisa uus täiendkoolitus",
+        "deleteCourse": "Kustuta täiendkoolitus"
+      },
+      "languagesBookmark": "Keeled",
+      "languages": {
+        "language": "Keel",
+        "speaking": "Suhtlemine",
+        "reading": "Lugemine/kirjutamine",
+        "addMoreLanguages": "Lisa uus keel",
+        "deleteLanguage": "Kustuta keel"
+      },
+      "filesBookmark": "Manused",
+      "files": {
+        "name": "Nimi",
+        "uploadFilesButton": "Lae fail üles",
+        "allowedFormats": "Lubatud formaadid",
+        "lastUpdate": "Viimane uuendus",
+        "fileSize": "Faili suurus",
+        "recentAddedFiles": "Hiljuti lisatud failid",
+        "addNewFilesHeaderText": "Lisa uued failid"
+      },
+      "agreementBookmark": "Lepingud",
+      "agreements": {
+        "addAContractButton": "Lisa Leping",
+        "agreementFile": "Lepingu fail",
+        "agreementStatus": "Staatus",
+        "addAContractModal": {
+          "addAContractHeading": "Lisa Leping",
+          "recipient": "Saaja",
+          "selectAUser": "Vali kasutaja",
+          "uploadFileButton": "Lae üles fail"
+        }
+      },
+      "year": "Aasta",
+      "month": "Kuu",
+      "day": "Päev",
+      "hideCV": "Peida CV",
+      "showCV": "Näita CV",
+      "cropImageModalHeading": "Kärbi Pilti"
+    },
+    "totalCandidatesList": "KÕIK KANDIDAADID",
+    "candidateApplyToJob": "KANDIDEERINUD",
+    "shortlistedCandidates": "VALITUD",
+    "1stInterviewCandidates": "1. INTERVJUU",
+    "2ndInterviewCandidates": "2. INTERVJUU",
+    "offerCandidates": "TÖÖPAKKUMINE TEHTUD",
+    "placedCandidates": "TÖÖLE VÕETUD",
+    "rejectedCandidates": "TAGASI LÜKATUD",
+    "customCandidateListHeading": "Listid",
+    "customCandidateList": {
+      "editCandidateListName": {
+        "editCandidateModalHeading": "Muuda listi nimetus",
+        "listName": "Listi nimi"
+      }
+    },
+    "candidateList": "Kandidaatide Nimekiri",
+    "candidatePicture": "Pilt",
+    "candidateName": "Nimi",
+    "candidatePhone": "Telefon",
+    "candidateGender": "Sugu",
+    "candidatePhase": "Faas",
+    "candidateJobType": "Töö liik",
+    "candidateLocation": "Asukoht",
+    "addToList": "Lisa listi",
+    "addToListModal": {
+      "headerText": "Anna Listile Nimi",
+      "listName": "Listi Nimi"
+    },
+    "deleteFromList": "Kustuta listist",
+    "alertText": "Vali Kandidaadid",
+    "candidateApplyForJob": "Kandideeri töökohale",
+    "candidateApplyForJobModal": {
+      "jobOffer": "Tööpakkumine",
+      "jobLocation": "Töö Asukoht",
+      "jobType": "Töö Tüüp",
+      "jobMatching": "Töö Sobivus"
+    },
+    "sendInterviewInformation": "Saada intervjuu info",
+    "1stInterview": "1. Intervjuu",
+    "2ndInterview": "2. Intervjuu",
+    "makeJobOffer": "Tee tööpakkumine",
+    "hire": "Võta tööle",
+    "reject": "Lükka tagasi",
+    "sendEmailButton": "Saada Email",
+    "downloadCvButton": "Lae alla CV",
+    "sendConfirmationLinkButton": "Saada link kandidaadile kinnitamiseks",
+    "jobOffers": {
+      "heading": "Job Offers",
+      "phase": "Faas",
+      "applyForJobButton": "Kandideeri töökohale"
+    },
+    "jobs": "Tööpakkumised"
+  },
+  "timelineHistory": {
+    "heading": "AJALUGU",
+    "name": "Nimi",
+    "date": "Kuupäev",
+    "timelineCommentDescription": {
+      "add": "Lisa Kirjeldus",
+      "view": "Kuva Kirjeldus"
+    },
+    "newActivityButton": "Uus Tegevus",
+    "newActivityModal": {
+      "heading": "Tegevused",
+      "call": "Kõne",
+      "incoming": "Sissetulev",
+      "outgoing": "Väljuv",
+      "answered": "Vastas",
+      "notAnswered": "Ei vastanud",
+      "sms": "Sms",
+      "email": "Email",
+      "interview": "Intervjuu",
+      "consent": "Andis nõusoleku",
+      "completed": "Sooritatud",
+      "2ndInterview": "2. Intervjuu",
+      "comment": "Kommentaar"
+    },
+    "loadMore": "Lae Veel Juurde"
+  },
+  "companies": {
+    "addNewCompanyButton": "Lisa uus ettevõe",
+    "addNewCompany": {
+      "heading": "Ettevõtte info",
+      "companyDetails": {
+        "heading": "Ettevõtte detailandmed",
+        "name": "Nimi",
+        "fetchCompanyButton": "Saada päring",
+        "registerCode": "Registrikood",
+        "vat": "KMKR nr"
+      },
+      "personContact": {
+        "heading": "Kontaktisik",
+        "name": "Nimi",
+        "email": "Email",
+        "phone": "Telefon",
+        "position": "Amet",
+        "addMoreContacts": "Lisa uus kontaktisik",
+        "deleteContact": "Kustuta kontaktisik"
+      },
+      "industry": "Emtak",
+      "addIndustry": "Lisa tootmisharu",
+      "location": "Aadress",
+      "addLocation": "Lisa aadress",
+      "uploadFiles": "Manused",
+      "backToAddJobPage": "Tagasi tööpakkumiste juurde",
+      "backToEditJobsPage": "Tagasi Tööde Redigeerimise Lehele"
+    },
+    "uploads": "Üleslaadimised",
+    "companyList": "Ettevõtete nimekiri",
+    "sendEmailButton": "Saada Email",
+    "sendCreateRequestButton": "Saada päring uue tööpakkumise loomiseks",
+    "availableJobOffers": {
+      "heading": "Olemasolevad tööpakkumised",
+      "name": "Nimi",
+      "creator": "Looja",
+      "creationDate": "Loomise kuupäev",
+      "deadline": "Tähtaeg",
+      "status": "Staatus",
+      "company": "Ettevõte",
+      "numberOfPeoplesWanted": "Otsitavate inimeste hulk",
+      "hire": "Palkamise vajadus",
+      "location": "Aadress"
+    },
+    "jobName": "Job Name",
+    "applicationDate": "Kandideerimise kuupäev",
+    "status": "Staatus",
+    "sendEmailTemplatesAddMoreContactsModal": {
+      "heading": "Lisa Uus Kontaktisik",
+      "addContactButton": "Lisa Kontaktisik"
+    }
+  },
+  "sendEmailsTabs": {
+    "candidateTab": "SAADA KIRI KANDIDAADILE",
+    "companyTab": "Saada email ettevõttele"
+  },
+  "verificationZoomLinkModal": {
+    "headerHeading": "Suumilingi Kinnitamine",
+    "subHeading": "Suumi Konto Kinnitamiseks Klõpsake Allolevat Nuppu",
+    "verifyButton": "Kinnitage Suumi Konto"
+  },
+  "jobs": {
+    "addNewJobButton": "Lisa uus tööpakkumine",
+    "jobOffersList": "Tööpakkumiste nimekiri",
+    "addNewJob": {
+      "heading": "Lisa tööpakkumine",
+      "offerName": "Nimetus",
+      "createdAt": "Tööpakkumine loodud",
+      "status": {
+        "status": "Staatus",
+        "active": "Aktiivne",
+        "inActive": "Mitteaktiivne",
+        "onHold": "Ootel"
+      },
+      "deadline": "Tähtaeg",
+      "company": {
+        "companyName": "Ettevõte",
+        "noCompanyFound": "Ühtegi ettevõtet ei leitud",
+        "noCompanyFoundMessage": "Sellist ettevõtet ei eksisteeri. Kas soovid luuauue ettevõtte profiili?",
+        "createNewCompanyButton": "Lisa uus ettevõte"
+      },
+      "numberOfPeoplesWanted": "Otsitavate inimeste hulk",
+      "location": "Asukoht",
+      "benefits": "Eelised",
+      "addNewCompanyButton": "Lisa uus ettevõte",
+      "jobDescription": "Töö kirjeldus",
+      "natureOfWork": {
+        "workNature": "Töö ajutise iseloomu põhjendus",
+        "temporaryIncrease": "Töömahu ajutine suurenemine"
+      },
+      "durationType": {
+        "durationType": "Töö kestvuse tüüp",
+        "permanent": "püsiv töökoht",
+        "temporary": "ajutine töökoht"
+      },
+      "workLocation": "Töö asukoht",
+      "department": "Osakond",
+      "creator": "Tööpakkumise Looja",
+      "personContactName": "Kontaktisiku nimi",
+      "personContactEmail": "Kontaktisiku email",
+      "personContactPhone": "Kontaktisiku telefon",
+      "traning": "Väljaõpe toimub ettevõttes kohapeal",
+      "observation": "Töövaatluse võimalus",
+      "employmentType": {
+        "employmentType": "Töö tüüp",
+        "fullTime": "täistööaeg",
+        "partialTime": "osaline tööaeg",
+        "substituteWork": "asendustöö"
+      },
+      "workingLanguage": "Töökeel",
+      "desiredLanguage": "Soovitud keel",
+      "salary": {
+        "salary": "Töötasu",
+        "salaryOptions": {
+          "six": "Kuus",
+          "hour": "Tunnis"
+        },
+        "salaryType": "Töötasu tüüp",
+        "salaryTypeOptions": {
+          "number": "Number",
+          "range": "Vahemik"
+        },
+        "grossSalary": "Töötasu (bruto)",
+        "since": "Alates",
+        "until": "Kuni"
+      },
+      "jobType": {
+        "jobType": "Töö tüüp",
+        "jobTypeOptions": {
+          "accordingToContract": "Vastavalt lepingule",
+          "seasonalEmployee": "Hooajatöötaja"
+        }
+      },
+      "transport": "Töötajate transport",
+      "workingHours": {
+        "workingHours": "Tööaeg",
+        "monToFri": "E-R",
+        "schedule": "Graafiku alusel"
+      },
+      "clothes": "Töötajate riided",
+      "shifts": "Töö mitmes vahetuses",
+      "shiftStartTime": "Tööpäeva algus",
+      "shiftEntTime": "Tööpäeva lõpp",
+      "recess": "Lõuna ja puhkeaeg",
+      "requirements": "Nõuded töötajate tervisele, teadmistele, oskustele, võimetele, isikuomadustele",
+      "additionalInformation": "Lisainfo",
+      "comment": "Kommentaarid",
+      "uploadFiles": "Laadi üles ametijuhend",
+      "addVideoButton": "Lisa video",
+      "addVideoModal": {
+        "heading": "Kuidas soovid videot lisada?",
+        "youtubeLink": "YouTube Link",
+        "uploadVideoFile": "Lae üles videofail"
+      },
+      "submitButton": "Lisa tööpakkumine",
+      "jobDetails": "Tööpakkumise üksikasjad"
+    },
+    "jobOfferDetails": "Tööpakkumise detailandmed",
+    "verifyLinkButton": "Saada Link Tööpakkumise Kinnitamiseks",
+    "createdAt": "Tööpakkumine loodud",
+    "jobApplicantsCount": "KANDIDEERINUD",
+    "jobApplicants": "KANDIDEERINUD",
+    "backToViewJobPage": "Tagasi töölehe kuvamiseks",
+    "dropdownOptions": {
+      "noneSelected": "Ei ole valitud",
+      "yes": "Jah",
+      "no": "Ei"
+    },
+    "files": "Manused",
+    "suitableCandidates": "Parimad sobivad kandidaadid",
+    "suitability": "Sobivus",
+    "applicationDate": "Kandideerimise kuupäev",
+    "timeline": {
+      "heading": "TEGEVUSTE STAATUS TÖÖPAKKUMISELE",
+      "name": "Nimi",
+      "date": "Kuupäev",
+      "timelineCommentDescription": {
+        "add": "Lisa Kirjeldus",
+        "view": "Kuva Kirjeldus"
+      }
+    }
+  },
+  "settings": {
+    "personalData": {
+      "heading": "Isiklikud andmed",
+      "about": "Minu Andmed",
+      "name": "Nimi",
+      "email": "Email",
+      "phone": "Telefon",
+      "location": "Aadress",
+      "timeZone": "Ajavöönd",
+      "userRole": "Rollid",
+      "uploadPicture": "Lae üles pilt"
+    },
+    "changePassword": {
+      "heading": "Muuda parool",
+      "currentPassword": "Olemasolev parool",
+      "newPassword": "Uus parool",
+      "confirmNewPassword": "Kinnita uus parool",
+      "updatePassword": "Uuenda parooli"
+    },
+    "emailTemplates": {
+      "heading": "Emailide templiidid",
+      "templateName": "Templiidi nimetus",
+      "templateKey": "Templiidi võti",
+      "addNewTemplate": "Lisa uus templiit",
+      "editTemplateHeading": "Muuda templiidi nimetus",
+      "saveTemplateButton": "Salvesta mall",
+      "updateTemplateButton": "Uuenda malli",
+      "wildCards": {
+        "heading": "Metamärgid",
+        "subHeading": "Kuidas see töötab",
+        "paragraph1": "Metamärke kasutatakse süsteemist andmete saamiseks ja nende oma meilidesse paigutamiseks.",
+        "paragraph2": "Kui metamärk on sinist värvi, tähendab see, et seda on juba korra kasutatud mallis, kuid sedasama metamärki võib kasutada veel."
+      }
+    },
+    "userPermissions": {
+      "heading": "Kasutajate load",
+      "dropdownHeading": "Millise kasutaja lubasid soovid muuta?",
+      "changeRole": "Muuda rolli",
+      "sell": "Sell"
+    },
+    "users": {
+      "heading": "Kasutajad",
+      "picture": "Pilt",
+      "name": "Nimi",
+      "role": "Roll",
+      "addNewUser": "Lisa uus kasutaja",
+      "position": "Amet",
+      "location": "Aadress",
+      "phone": "Telefon",
+      "email": "Email",
+      "password": "Uus Parool",
+      "confirmPassword": "Kinnita uus parool"
+    },
+    "roles": {
+      "heading": "Rollid",
+      "roleName": "Roll",
+      "addNewRole": "Lisa uus roll",
+      "editRole": "Muuda rolli",
+      "addRoleButton": "Lisa roll",
+      "updateRoleButton": "Uuenda rolli",
+      "rolePermission": "Rolli load"
+    }
+  },
+  "calendar": {
+    "googleSignInButton": "Logi sisse Google kontoga",
+    "buttons": {
+      "createNewCalendar": "Looge Uus Kalender",
+      "createNewEvent": "Lisa uus sündmus",
+      "updateEvent": "Uuenda sündmus",
+      "logout": "Logi välja"
+    },
+    "accordion": {
+      "myCalendar": "Minu Kalendrid",
+      "otherCalendar": "Muud Kalendrid"
+    },
+    "modals": {
+      "createEventModal": {
+        "heading": "Loo uus sündmus",
+        "name": "Nimetus",
+        "description": "Kirjeldus",
+        "allDay": "Terve päev",
+        "eventStartDateAndTime": "Sündmuse algusaeg ja -kuupäev",
+        "eventEndDateAndTime": "Sündmuse lõppemise aeg ja kuupäev",
+        "calendarSelect": "Kalendrid",
+        "availability": {
+          "heading": "Kättesaadavus",
+          "free": "Vaba",
+          "busy": "Hõivatud"
+        }
+      },
+      "eventOverviewHeading": "Sündmuse ülevaade",
+      "eventOverviewDate": "Kestvus",
+      "updateEventHeading": "Uuenda sündmus",
+      "createCalendarModal": {
+        "heading": "Loo uus kalender",
+        "title": "Pealkiri"
+      },
+      "calendarShareWithModal": {
+        "heading": "Jagage konkreetsete inimestega",
+        "addPeopleButton": "Lisa inimesi",
+        "shareCalendarModal": {
+          "heading": "Jaga kalendrit",
+          "user": "Kasutajad",
+          "role": "Roll"
+        }
+      }
+    }
+  }
+}

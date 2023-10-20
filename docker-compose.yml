@@ -1,0 +1,129 @@
+version: '3'
+
+networks:
+  HRA-NETWORK:
+
+
+volumes:
+  hra-db-data:
+  es01-data01:
+  es01-data02:
+  kibana-data:
+
+
+services:
+  db:
+    image: mariadb:10.6.11
+    restart: always
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_ROOT_HOST: ${MYSQL_ROOT_HOST}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - 3306:3306
+    volumes:
+      - hra-db-data:/var/lib/mysql
+    networks:
+      - HRA-NETWORK
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+      - UPLOAD_LIMIT=2G
+    depends_on:
+      - db
+    networks:
+      - HRA-NETWORK
+
+  client:
+    container_name: client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/var/www/html/client
+      - /var/www/html/client/node_modules
+      - /var/www/html/client/build
+
+  server:
+    container_name: server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    volumes:
+      - ./server:/var/www/html/server
+    env_file:
+      - ./server/.env
+    restart: unless-stopped
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - 8000:80
+    depends_on:
+      - db
+    networks:
+      - HRA-NETWORK
+
+  es01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    container_name: es01
+    environment:
+      - node.name=es01
+      - cluster.name=${CLUSTER_NAME}
+      - discovery.seed_hosts=es02
+      - cluster.initial_master_nodes=es01,es02
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - es01-data01:/usr/share/elasticsearch/data
+    ports:
+      - ${ES_PORT}:9200
+    networks:
+      - HRA-NETWORK
+  es02:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    container_name: es02
+    environment:
+      - node.name=es02
+      - cluster.name=${CLUSTER_NAME}
+      - discovery.seed_hosts=es01
+      - cluster.initial_master_nodes=es01,es02
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - es01-data02:/usr/share/elasticsearch/data
+    networks:
+      - HRA-NETWORK
+
+  kibana:
+    container_name: kibana
+    image: docker.elastic.co/kibana/kibana:${STACK_VERSION}
+    depends_on:
+      - es01
+      - es02
+    environment:
+      - ELASTICSEARCH_HOSTS=http://es01:9200
+    ports:
+      - ${KIBANA_PORT}:5601
+    volumes:
+      - kibana-data:/usr/share/kibana/data
+    networks:
+      - HRA-NETWORK

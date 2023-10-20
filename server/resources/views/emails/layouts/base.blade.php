@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:f96b4bf9b4c99aa01838e5b7b3194f22149983fe,1546441818";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:31a4dda1bc451ba2f684d9769f47dbda1cf0b2f6,1546445299";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:0a639dbce0d5b31e0ff980984f3977aa878a6efd,1546445716";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:24a2fce7031c0dfb2c774da552d4cd77a49999dd,1549617723";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:c3878525cd686782b68b3a4679027b15ea4346ca,1549617924";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:be1f32c624244170d5cc3005c36e025bc81cf2e4,1551279309";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:bdad6905b081990dc5f30684141d2f179077a4a5,1551279481";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:fe5093e5ac8f677cd2847365a37ae7ccfaa50548,1554806453";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:e5a60b87c3c73f8eb2a465e5af6c78ccabebd667,1560758240";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:853969c8974d65747b497e1dc6b9ae6102d9b001,1582090571";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:625c54628af5f758866b24d3268bd22caf097e7f,1582097309";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:dddd332c3f10b1ae2cb5e983fe49fe190b7bb8d4,1582103204";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:bdc74fcf8e768872378ea07df23e42058b11a0fc,1582103818";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script><script type="text/javascript">if (top != self) {top.location.href = self.location.href;}</script><script type="text/javascript">var csrfMagicToken = "sid:84502594e1d65aafe55262e44080e19b7c5774b8,1584658519";var csrfMagicName = "__vtrftk";</script><script src="libraries/csrf-magic/csrf-magic.js" type="text/javascript"></script>
+</head>
+<body class="scayt-enabled" style="background:#f0f0f0;">
+<table border="0" cellpadding="0" cellspacing="0" style="background:white;border-collapse:collapse; width:594px;margin:0 auto;font-family: arial,sans-serif;" width="594">
+	<tbody>
+		<tr>
+			<td height="100" style="border-top:none; padding:0px; background: #fff" valign="top" width="594">
+            <p align="left" style="text-align:center">
+                <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXi79rydTi04NEVCNphUyadeFaQkRrwDCXfw&usqp=CAU" style="margin-top:20px; width: 200px" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding:15px;height:295px" valign="top">
+                @yield('content')
+			<br />
+			<br />
+			<br />
+			Kind Regards,<br />
+            Team Heilo<br/>
+            </td>
+		</tr>
+	</tbody>
+</table>
+</html>

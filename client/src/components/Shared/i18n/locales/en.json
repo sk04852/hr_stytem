@@ -1,0 +1,614 @@
+{
+  "welcome text": "Welcome",
+  "buttons": {
+    "save": "Save",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "filter": "Filter",
+    "reset": "Reset",
+    "back": "Back",
+    "edit": "Edit",
+    "send": "Send",
+    "create": "Create",
+    "upload": "Upload",
+    "update": "Update",
+    "backToCandidate": "Back To Candidate Job Offers",
+    "share": "Share",
+    "done": "Done",
+    "delete": "Delete"
+  },
+  "actions": "Actions",
+  "delete": "Delete",
+  "uploadPicture": "Upload Picture",
+  "recordNotFound": {
+    "fileNotFound": "File Not Found",
+    "noAttachmentFound": "No Attachment Found",
+    "noMatchFound": "No Match Found",
+    "noListFound": "No List Found",
+    "noRecordFound": "Record Not Found",
+    "noJobFound": "No Job Found"
+  },
+  "owner": "Owner",
+  "messages": {
+    "confirmDelete": "Are You Sure?"
+  },
+  "warnings": {
+    "addCandidateBookmarkWarning": "Please Add Personal Information Before Proceed!"
+  },
+  "alerts": {
+    "allowedFormats": "Allowed Formats"
+  },
+  "confirm": {
+    "verifyZoomAccount": "Do You Want To Verify Your Zoom Account?"
+  },
+  "errors": {
+    "tagsNotAllowed": "Unnecessary inputs (links, tags, etc) are not allowed.",
+    "invalidFileType": "This file format is not supported. Select a valid file format which are given below.",
+    "invalidVideoType": "This video format is not supported. Select a valid video format which are given below.",
+    "invalidYoutubeLink": "Link is not valid. Enter a valid youtube link."
+  },
+  "loaders": {
+    "pleaseWait": "Please Wait"
+  },
+  "formValidationMessages": {
+    "required": "Required",
+    "emailValidationMessage": "Must be a valid email",
+    "numberValidationMessage": "Must be a valid number",
+    "passwordMinMessage": "Must Be At Least 6 Characters",
+    "samePasswordMessage": "Both password need to be the same",
+    "tryAnotherPassword": "Try Another Password",
+    "childrenQuantity": "children quantity must between 0 to 10",
+    "age": "age must between 0 to 150",
+    "personalCode": {
+      "incorrectCode": "Personal Code Not Correct",
+      "greaterYear": "The Year Must Be Greater Than The Current Year",
+      "limit": "Personal Code Must Be 11 Digits",
+      "notMatch": "Your Personal Code Does Not Match Your Gender",
+      "notMatchWithDOB": "Your Personal Code Does Not Match Your Date of Birth"
+    },
+    "sendEmailTemplates": {
+      "toRequired": "Email Is Required"
+    }
+  },
+  "header": {
+    "language": "Language",
+    "accessibility": "Accessibility",
+    "projects": "Projects",
+    "notifications": {
+      "loadMore": "Load More",
+      "markAllAsRead": "Mark All As Read"
+    },
+    "profileSettings": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "inbox": "Inbox",
+      "messages": "Messages",
+      "needHelp": "Need Help?",
+      "signOut": "Sign Out"
+    }
+  },
+  "dashboard": {
+    "taskboard": "Taskboard",
+    "todo": "Todo",
+    "payroll": "Payroll",
+    "newTicket": "New Ticket",
+    "accounts": "Acctounts",
+    "reports": "Reports"
+  },
+  "taskboard": {
+    "addNewTasks": "Add Tasks",
+    "addNewTasksModalHeading": "Create New Task",
+    "toWhome": "To Whom",
+    "description": "Description",
+    "createTaskButton": "Create Tasks",
+    "deadline": "Deadline"
+  },
+  "todo": {
+    "addNewTodo": "Add Todo",
+    "addNewTodoModalHeading": "Create New Todo",
+    "toWhome": "To Whom",
+    "description": "Description",
+    "createTaskButton": "Create Todo",
+    "deadline": "Deadline"
+  },
+  "sideMenu": {
+    "directories": "DIRECTORIES",
+    "dashboard": "Dashboard",
+    "candidates": "Candidates",
+    "company": "Companies",
+    "jobs": "Jobs",
+    "settings": "Settings"
+  },
+  "candidates": {
+    "addNewCandidateButton": "Add New Candidate",
+    "addNewCandidate": {
+      "addNewCandidateModal": {
+        "addNewCandidateModalHeading": "Add A New Candidate",
+        "addNewCandidateModalSubHeading": "Do you want to import from CV or add manually?",
+        "addNewCandidateImportFromCvButton": "Import From CV",
+        "addNewCandidateAddManuallyButton": "Add Manually"
+      },
+      "back": "Back To Candidates List"
+    },
+    "importFromPdfHeading": "Import Data From PDF",
+    "bookmarks": {
+      "personalInformationBookmark": "Personal Information",
+      "personalInformation": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dob": "Date Of Birth",
+        "personalInformation": "Personal Information",
+        "personalCode": "Personal Code",
+        "email": "Email",
+        "address": "Address",
+        "maritalStatus": "Marital Status",
+        "childrenQuantity": "Children Quantities",
+        "age": "Age",
+        "nationality": "Nationalities",
+        "addNationality": "Add Nationalities",
+        "drivingLicense": "Driving Licenses",
+        "addDrivingLicense": "Add Driving Licenses",
+        "recommendation": "Recommendations",
+        "addRecommendations": "Add Recommendations",
+        "keyword": "Keywords",
+        "addKeyword": "Add Keywords",
+        "tag": "Tags",
+        "source": "Source",
+        "desiredJob": "Desired Job",
+        "desiredJobType": "Desired Job Type",
+        "fullTime": "Full Time",
+        "partTime": "Part Time",
+        "desiredJobTime": "Desired Job Time",
+        "desiredJobLocation": "Desired Job Location",
+        "desiredJobSalary": "Desired Job Salary",
+        "status": "Status",
+        "statusActive": "Active",
+        "statusInActive": "InActive",
+        "newsLetter": "Newsletter",
+        "consent": "Consent",
+        "uploadPicture": "Upload Picture",
+        "description": "Description"
+      },
+      "jobHistoryBookmark": "Job History",
+      "jobHistory": {
+        "companyName": "Company Name",
+        "designation": "Designation",
+        "workPlace": "Work Place",
+        "description": "Description",
+        "jobStartDate": "Job Start Date",
+        "jobEndDate": "Job End Date",
+        "stillWorking": "Still Working",
+        "addMoreJobs": "Add More Jobs",
+        "deleteJob": "Delete Job"
+      },
+      "educationBookmark": "Education",
+      "education": {
+        "educationLevel": "Education Level",
+        "institute": "Institute",
+        "speciality": "Speciality",
+        "educationStartDate": "Year of Starting To Study",
+        "educationEndDate": "Year Of Graduation",
+        "stillStudying": "Still Stidying",
+        "additionalInformation": "Additional Information",
+        "addMoreEducationHistory": "Add More Education History",
+        "deleteEducationHistory": "Delete Education",
+        "until": "Until Today"
+      },
+      "additionalCoursesBookmark": "Additional Courses",
+      "additionalCourses": {
+        "title": "Course Title",
+        "totalHours": "Total Hours",
+        "description": "Course Description",
+        "courseStartDate": "Course Start Date",
+        "courseEndDate": "Course End Date",
+        "addMoreCourses": "Add More Courses",
+        "deleteCourse": "Delete Course"
+      },
+      "languagesBookmark": "Languages",
+      "languages": {
+        "language": "Language",
+        "speaking": "Speaking",
+        "reading": "Reading",
+        "addMoreLanguages": "Add More Languages",
+        "deleteLanguage": "Delete Language"
+      },
+      "filesBookmark": "Files",
+      "files": {
+        "name": "Name",
+        "uploadFilesButton": "Upload Files",
+        "allowedFormats": "Allowed Formats",
+        "lastUpdate": "Last Update",
+        "fileSize": "File Size",
+        "recentAddedFiles": "Recent Added Files",
+        "addNewFilesHeaderText": "Add New Files"
+      },
+      "agreementBookmark": "Agreements",
+      "agreements": {
+        "addAContractButton": "Add A Contract",
+        "agreementFile": "Agreement",
+        "agreementStatus": "Status",
+        "addAContractModal": {
+          "addAContractHeading": "Add A Contract",
+          "recipient": "Recipient",
+          "selectAUser": "Select A User",
+          "uploadFileButton": "Upload A File"
+        }
+      },
+      "year": "Year",
+      "month": "Month",
+      "day": "Day",
+      "hideCV": "Hide CV",
+      "showCV": "Show CV",
+      "cropImageModalHeading": "Crop Your Image"
+    },
+    "totalCandidatesList": "Total Candidates",
+    "candidateApplyToJob": "Applied Candidates",
+    "shortlistedCandidates": "Shortlisted Candidates",
+    "1stInterviewCandidates": "1st Interview Candidates",
+    "2ndInterviewCandidates": "2nd Interview Candidates",
+    "offerCandidates": "Offered Candidates",
+    "placedCandidates": "Placed Candidates",
+    "rejectedCandidates": "Rejected Candidates",
+    "customCandidateListHeading": "Custom Candidates List",
+    "customCandidateList": {
+      "editCandidateListName": {
+        "editCandidateModalHeading": "Edit List Name",
+        "listName": "List Name"
+      }
+    },
+    "candidateList": "Candidates List",
+    "candidatePicture": "Picture",
+    "candidateName": "Name",
+    "candidatePhone": "Phone",
+    "candidateGender": "Gender",
+    "candidatePhase": "Phase",
+    "candidateJobType": "Type Of Work",
+    "candidateLocation": "Location",
+    "addToList": "Add To List",
+    "addToListModal": {
+      "headerText": "Select List",
+      "listName": "List Name"
+    },
+    "deleteFromList": "Delete From List",
+    "alertText": "Select Candidates",
+    "candidateApplyForJob": "Apply For A Job",
+    "candidateApplyForJobModal": {
+      "jobOffer": "Job Offer",
+      "jobLocation": "Job Location",
+      "jobType": "Job Type",
+      "jobMatching": "Job Matching"
+    },
+    "sendInterviewInformation": "Send Interview Information",
+    "1stInterview": "1st Interview",
+    "2ndInterview": "2nd Interview",
+    "makeJobOffer": "Make A Job Offer",
+    "hire": "Hire",
+    "reject": "Reject",
+    "sendEmailButton": "Send Email",
+    "downloadCvButton": "Download CV",
+    "sendConfirmationLinkButton": "Send Confirmation Link To Candidate",
+    "jobOffers": {
+      "heading": "Job Offers",
+      "phase": "Phase",
+      "applyForJobButton": "Apply For Job"
+    },
+    "jobs": "Jobs"
+  },
+  "timelineHistory": {
+    "heading": "Timeline History",
+    "name": "Name",
+    "date": "Date",
+    "timelineCommentDescription": {
+      "add": "Add Description",
+      "view": "View Description"
+    },
+    "newActivityButton": "New Activity",
+    "newActivityModal": {
+      "heading": "Activities",
+      "call": "A Call",
+      "incoming": "Incoming",
+      "outgoing": "Outgoing",
+      "answered": "Answered",
+      "notAnswered": "Did Not Answer",
+      "sms": "Sms",
+      "email": "Email",
+      "interview": "Interview",
+      "consent": "Gave Consent",
+      "completed": "Completed",
+      "2ndInterview": "2. Interview",
+      "comment": "Comment"
+    },
+    "loadMore": "Load More"
+  },
+  "companies": {
+    "addNewCompanyButton": "Add New Company",
+    "addNewCompany": {
+      "heading": "Company Info",
+      "companyDetails": {
+        "heading": "Company Details",
+        "name": "Company Name",
+        "fetchCompanyButton": "Fetch Company",
+        "registerCode": "Register Code",
+        "vat": "Vat No"
+      },
+      "personContact": {
+        "heading": "Person Contact",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "position": "Position",
+        "addMoreContacts": "Add More Contacts",
+        "deleteContact": "Delete Contact"
+      },
+      "industry": "Industry",
+      "addIndustry": "Add Industry",
+      "location": "Address",
+      "addLocation": "Add Location",
+      "uploadFiles": "Upload Files",
+      "backToAddJobPage": "Back To Add Job Page",
+      "backToEditJobsPage": "Back To Edit Job Page"
+    },
+    "uploads": "Uploads",
+    "companyList": "List Of Companies",
+    "sendEmailButton": "Send Email",
+    "sendCreateRequestButton": "Send a request to create a new job offer",
+    "availableJobOffers": {
+      "heading": "Available Job Offers",
+      "name": "Name",
+      "creator": "Creator",
+      "creationDate": "DATE OF CREATION",
+      "deadline": "Deadline",
+      "status": "Status",
+      "company": "Company",
+      "numberOfPeoplesWanted": "NUMBER OF PEOPLE WANTED",
+      "hire": "NEED FOR HIRE",
+      "location": "Address"
+    },
+    "jobName": "Job Name",
+    "applicationDate": "DATE OF APPLICATION",
+    "status": "Status",
+    "sendEmailTemplatesAddMoreContactsModal": {
+      "heading": "Add New Contact",
+      "addContactButton": "Create Contact"
+    }
+  },
+  "sendEmailsTabs": {
+    "candidateTab": "Send Email To Candidate",
+    "companyTab": "Send Email To Company"
+  },
+  "verificationZoomLinkModal": {
+    "headerHeading": "Zoom Link Verification",
+    "subHeading": "Click The Below Button To Verify Your Zoom Account",
+    "verifyButton": "Verify Zoom Account"
+  },
+  "jobs": {
+    "addNewJobButton": "Add New Job",
+    "jobOffersList": "List of Job Offers",
+    "addNewJob": {
+      "heading": "Add A Job Offer",
+      "offerName": "Offers",
+      "createdAt": "Date of Creation",
+      "status": {
+        "status": "Status",
+        "active": "Active",
+        "inActive": "InActive",
+        "onHold": "On Hold"
+      },
+      "deadline": "Deadline",
+      "company": {
+        "companyName": "Companies",
+        "noCompanyFound": "No Company Found",
+        "noCompanyFoundMessage": "No such company exists. Do you want to create a new company profile?",
+        "createNewCompanyButton": "Create A New Company"
+      },
+      "numberOfPeoplesWanted": "Number of People Wanted",
+      "location": "Location",
+      "benefits": "Benefits",
+      "addNewCompanyButton": "Add New Company",
+      "jobDescription": "Job Description",
+      "natureOfWork": {
+        "workNature": "Temporary Nature of Work",
+        "temporaryIncrease": "Temporary increase in workload"
+      },
+      "durationType": {
+        "durationType": "Duration Type",
+        "permanent": "Permanent",
+        "temporary": "Temporary"
+      },
+      "workLocation": "Location of Work",
+      "department": "Department",
+      "creator": "Creator",
+      "personContactName": "Person Contact Name",
+      "personContactEmail": "Person Contact Email",
+      "personContactPhone": "Person Contact Phone",
+      "traning": "Traning",
+      "observation": "Observation",
+      "employmentType": {
+        "employmentType": "Employment Type",
+        "fullTime": "Full Time Job",
+        "partialTime": "Partial Worktime",
+        "substituteWork": "Substitute Work"
+      },
+      "workingLanguage": "Working Language",
+      "desiredLanguage": "Desired Language",
+      "salary": {
+        "salary": "Salary",
+        "salaryOptions": {
+          "six": "Six",
+          "hour": "In An Hour"
+        },
+        "salaryType": "Salary Type",
+        "salaryTypeOptions": {
+          "number": "Number",
+          "range": "Range"
+        },
+        "grossSalary": "Salary (Gross)",
+        "since": "Since",
+        "until": "Until"
+      },
+      "jobType": {
+        "jobType": "Job Type",
+        "jobTypeOptions": {
+          "accordingToContract": "According to the contract",
+          "seasonalEmployee": "Seasonal Employee"
+        }
+      },
+      "transport": "Transport",
+      "workingHours": {
+        "workingHours": "Working Hours",
+        "monToFri": "Mon - Fri",
+        "schedule": "On Schedule"
+      },
+      "clothes": "Clothes",
+      "shifts": "Shifts",
+      "shiftStartTime": "Start Time",
+      "shiftEntTime": "End Time",
+      "recess": "Recess",
+      "requirements": "Requirements for employees' health, knowledge, skills, abilities, personal characteristics",
+      "additionalInformation": "Additional Information",
+      "comment": "Comment",
+      "uploadFiles": "Upload Files",
+      "addVideoButton": "Add Video",
+      "addVideoModal": {
+        "heading": "How do you want to add a video?",
+        "youtubeLink": "Youtube Link",
+        "uploadVideoFile": "Upload Video File"
+      },
+      "submitButton": "Add Job Offer",
+      "jobDetails": "Job Details"
+    },
+    "jobOfferDetails": "Job Offer Details",
+    "verifyLinkButton": "Send Verification Job Link",
+    "createdAt": "Date of Creation",
+    "jobApplicantsCount": "Total Candidates Applied",
+    "jobApplicants": "Candidates",
+    "backToViewJobPage": "Back To View Job Page",
+    "dropdownOptions": {
+      "noneSelected": "None Selected",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "files": "Files",
+    "suitableCandidates": "Best Suitable Candidates",
+    "suitability": "Suitability",
+    "applicationDate": "DATE OF APPLICATION",
+    "timeline": {
+      "heading": "ACTIVITY STATUS FOR JOB OFFER",
+      "name": "Name",
+      "date": "Date",
+      "timelineCommentDescription": {
+        "add": "Add Description",
+        "view": "View Description"
+      }
+    }
+  },
+  "settings": {
+    "personalData": {
+      "heading": "Personal Information",
+      "about": "About",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "timeZone": "Time Zone",
+      "userRole": "Role",
+      "uploadPicture": "Upload Picture"
+    },
+    "changePassword": {
+      "heading": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "updatePassword": "Update Password"
+    },
+    "emailTemplates": {
+      "heading": "Email Templates",
+      "templateName": "Template Name",
+      "templateKey": "Template Key",
+      "addNewTemplate": "Add New Template",
+      "editTemplateHeading": "Edit Template",
+      "saveTemplateButton": "Save Template",
+      "updateTemplateButton": "Update Template",
+      "wildCards": {
+        "heading": "Wildcard",
+        "subHeading": "How This Work",
+        "paragraph1": "Wildcards are userd to call information from the system and place it in your email.",
+        "paragraph2": "Wildcards with a blue border indicates that the wildcards are already being used in your template, however you may wish to use the same wildcard more than once."
+      }
+    },
+    "userPermissions": {
+      "heading": "User Permissions",
+      "dropdownHeading": "Which user did you want to change?",
+      "changeRole": "Change Role",
+      "sell": "Sell"
+    },
+    "users": {
+      "heading": "Users",
+      "picture": "Picture",
+      "name": "Name",
+      "role": "Role",
+      "addNewUser": "Add New User",
+      "position": "Position",
+      "location": "Location",
+      "phone": "Phone",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "roles": {
+      "heading": "Roles",
+      "roleName": "Role",
+      "addNewRole": "Add New Role",
+      "editRole": "Edit Role",
+      "addRoleButton": "Add Role",
+      "updateRoleButton": "Update Role",
+      "rolePermission": "Role Permissions"
+    }
+  },
+  "calendar": {
+    "googleSignInButton": "Sign In With Google",
+    "buttons": {
+      "createNewCalendar": "Create New Calendar",
+      "createNewEvent": "Create New Event",
+      "updateEvent": "Update Event",
+      "logout": "Logout"
+    },
+    "accordion": {
+      "myCalendar": "My Calendars",
+      "otherCalendar": "Other Calendars"
+    },
+    "modals": {
+      "createEventModal": {
+        "heading": "Create New Event",
+        "name": "Event Name",
+        "description": "Event Description",
+        "allDay": "All Day",
+        "eventStartDateAndTime": "Event Start Date And Time",
+        "eventEndDateAndTime": "Event End Date And Time",
+        "calendarSelect": "Calendars",
+        "availability": {
+          "heading": "Availability",
+          "free": "Free",
+          "busy": "Busy"
+        }
+      },
+      "eventOverviewHeading": "Event Overview",
+      "eventOverviewDate": "Event Start & End Date",
+      "updateEventHeading": "Update Event",
+      "createCalendarModal": {
+        "heading": "Create New Calendar",
+        "title": "Title"
+      },
+      "calendarShareWithModal": {
+        "heading": "Share with specific people",
+        "addPeopleButton": "Add people",
+        "shareCalendarModal": {
+          "heading": "Share Calendar",
+          "user": "Users",
+          "role": "Role"
+        }
+      }
+    }
+  }
+}

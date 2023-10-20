@@ -1,0 +1,9 @@
+php_value upload_max_filesize 2G
+php_value post_max_size 2G
+php_value max_execution_time 300
+php_value max_input_time 300
+
+
+<IfModule mod_security2.c>
+    SecRequestBodyNoFilesLimit 5242880
+</IfModule>
